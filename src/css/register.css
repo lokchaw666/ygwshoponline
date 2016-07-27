@@ -1,0 +1,38 @@
+/* header */
+#header_out{width:100%;height:127px;}
+.header{width:1201px;height:127px;background:#f7f7f7;margin:0 auto;position:relative}
+#login_logo{padding-top:25px;}
+.header span{position:absolute;right:144px;top:66px;color:#999999;}
+.header a{color:#999999;}
+#help{position:absolute;top:66px;right:36px;cursor:pointer;}
+
+/* login */
+#register_out{width:100%;height:503px;background:#f7f7f7;;margin-top:20px;}
+.register{width:1183px;height:485px;background:#ffffff;margin:0 auto;border:9px solid #e8e8e8;position:relative;}
+#register_img1{position:absolute;left:22px;top:8px;}
+.nousername{position:absolute;left:647px;top:30px;color:#000000;}
+.hasregister{position:absolute;right:192px;top:30px;}
+.pleaselg{color:#005da7;}
+#phone_num{width:339px;height:37px;position:absolute;left:649px;top:74px;}
+#text_code{width:138px;height:37px;position:absolute;left:649px;top:144px;}
+#txt_btn{width:138px;height:41px;position:absolute;left:800px;top:144px;background:#f8f8f8;border:1px solid #cccccc;cursor:pointer;color:#666666;}
+#psw{width:339px;height:37px;position:absolute;left:649px;top:212px;}
+#check_psw{width:339px;height:37px;position:absolute;left:649px;top:281px;}
+#phone{position:absolute;right:196px;top:85px;}
+#psw_img{position:absolute;right:196px;top:222px;}
+#checkpsw_img{position:absolute;right:196px;top:291px;}
+#check{position:absolute;left:650px;top:348px;}
+.hasread{position:absolute;left:666px;top:346px;}
+.ygwonline{color:#ff4d4d;}
+#register_btn{width:339px;height:37px;position:absolute;left:649px;top:391px;font-size:21px;color:#ffffff;background:url(../css/images/login_btn.png);border:none;cursor:pointer;}
+
+
+
+/* footer */
+#footer_out{width:100%;height:127px;background:#f7f7f7;}
+.footer{width:1201px;height:127px;background:#f7f7f7;margin:0 auto;position:relative;}
+.footer ul{position:absolute;left:244px;top:55px;}
+.footer ul li{float:left;padding-left:35px;}
+.footer ul li a{color:#666666;font-weight:700;}
+#qvc_img{position:absolute;left:815px;top:50px;}
+.footer span{text-decoration:underline;position:absolute;left:850px;top:55px;font-weight:700;color:#666666;}

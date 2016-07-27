@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商品详情页</title>
+<link rel="stylesheet" type="text/css" href="../css/details.css"/>
+<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+<script src="../js/common.js"></script>
+<script src="../js/jquery-1.12.0.js"></script>
+<script src="../js/details.js"></script>
+</head>
+
+<body>
+<!-------------header----------------->
+<div class="header_out">
+    <div class="header_top">
+        <img id="star" src="../css/images/header_star.png"/>
+        <a id="shoucang" href="#">收藏本站</a>
+        <span class="welcome">欢迎来到央广购物&nbsp;!</span>
+        <span class="login">您好，用户</span>
+        <ul class="header_list">
+            <li><a href="#">&nbsp;会员中心&nbsp;</a></li>
+            <li><a href="#">&nbsp;我的订单&nbsp;</a></li>
+            <li><a href="#">&nbsp;帮助中心&nbsp;</a></li>
+            <li><a href="#">&nbsp;电子型录&nbsp;</a></li>
+            <li class="last"><a href="#">&nbsp;移动客户端&nbsp;</a></li>
+        </ul>
+    </div>
+</div>
+<div class="search_out">
+    <div class="search">
+        <a href="#"><img id="logo" src="../images/logo.png"/></a>
+        <input type="text" id="serachtext" placeholder="输入您想要的商品ID/名称"/>
+        <button id="btnSearch"></button>
+        <img id="logo2" src="../images/logo2.png"/>
+        <img id="tv" src="../css/images/tv.png"/>
+        <img id="live" src="../css/images/live.png"/>
+        <span><a href="#">仵海州监制平安招财玉璧...</a></span>
+        <span class="redPiece">￥2980</span>
+    </div>
+</div>
+<div class="nav1_out">
+    <div class="nav1">
+        <img id="small_logo" src="../css/images/small_logo.png"/>
+        <ul>
+            <li><a class="shouye" href="#">首页</a></li>
+            <li><a class="qjd" href="#">品牌旗舰店</a></li>
+            <li><a href="#">今日特惠</a></li>
+            <li><a href="#">正在直播</a></li>
+            <li><a href="#">新品上市</a></li>
+            <li><a href="#">清仓频道</a></li>
+            <li><a href="#">换购商城</a></li>
+        </ul>
+        <img  id="new" src="../css/images/new.png"/>
+        <button id="car"></button>
+    </div>
+</div>
+<div class="nav2_out">
+    <div class="nav2">
+        <ul>
+            <li><a  class="first" href="#">服装配饰</a><li>
+            <li><a href="#">珠宝饰品</a><li>
+            <li><a href="#">美容用品</a><li>
+            <li><a href="#">厨房用品</a><li>
+            <li><a href="#">厨房电器</a><li>
+            <li><a href="#">家庭用品</a><li>
+            <li><a href="#">数码家电</a><li>
+            <li><a href="#">礼品收藏</a><li>
+            <li><a class="last" href="#">食品酒水</a><li>
+        </ul>
+    </div>
+</div>
+
+<!-------------details----------------->
+<div id="details">
+    <div class="details_content">
+        <img id="d_img1" src="../css/images/t_19.gif"/>
+        <span class="location">当前位置:<a href="#">&nbsp;家电&nbsp;>&nbsp;手机数码&nbsp;>&nbsp;相机&nbsp;>&nbsp;德国柏卡35倍光变长焦相机</a></span>
+        <div class="jdnav">
+            <span class="jiadian">家电&nbsp;分类</span>
+            <div class="jdbox">
+                <a href="#" class="dxjd">>&nbsp;大型家电</a>
+                <ul class="ul1">
+                    <li><a href="#">空调</a></li><span><a href="#">洗衣机</a></span>
+                    <li><a href="#">电冰箱</a></li><span><a href="#">热水器</a></span>
+                    <li><a href="#">洗碗机</a></li><span><a href="#">其他</a></span>
+                </ul>
+                <a href="#" class="yysb">>&nbsp;影音设备</a>
+                <ul class="ul2">
+                    <li><a href="#">DVD</a></li><span><a href="#">电视机</a></span>
+                    <li><a href="#">音响</a></li><span><a href="#">家庭影院</a></span>
+                    <li><a href="#">MP3</a></li><span><a href="#">MP4</a></span>
+                    <li><a href="#">MP5</a></li><span><a href="#">数码相框</a></span>
+                    <li><a href="#">投影仪</a></li><span><a href="#">其他</a></span>
+                </ul>
+                <a href="#" class="sjsm">>&nbsp;手机数码</a>
+                <ul class="ul3">
+                    <li><a href="#">智能手机</a></li><span><a href="#">非智能能手机</a></span>
+                    <li><a href="#">手机配件</a></li><span><a href="#">相机</a></span>
+                    <li><a href="#">摄像机</a></li><span><a href="#">导航仪</a></span>
+                    <li><a href="#">行车记录仪</a></li><span><a href="#">数码设备配件</a></span>
+                    <li><a href="#">其他</a></li>
+                </ul>
+                <a href="#" class="shdq">>&nbsp;生活电器</a>
+                <ul class="ul4">
+                    <li><a href="#">足浴盆</a></li><span><a href="#">加湿器</a></span>
+                    <li><a href="#">电烫斗</a></li><span><a href="#">电暖气</a></span>
+                    <li><a href="#">吸尘器</a></li><span><a href="#">电动拖把</a></span>
+                    <li><a href="#">缝纫机</a></li><span><a href="#">干衣机</a></span>
+                    <li><a href="#">电话</a></li><span><a href="#">暖水器</a></span>
+                    <li><a href="#">清洁机</a></li><span><a href="#">开饮机</a></span>
+                    <li><a href="#">净水机</a></li><span><a href="#">电风扇</a></span>
+                    <li><a href="#">捕蚊灯</a></li><span><a href="#">电动扫地机</a></span>
+                    <li><a href="#">空气净化器</a></li><span><a href="#">两季电器</a></span>
+                    <li><a href="#">除湿机</a></li><span><a href="#">家用坐便</a></span>
+                    <li><a href="#">挂烫机</a></li><span><a href="#">电热毯</a></span>
+                    <li><a href="#">其他</a></li>
+                </ul>
+                <a href="#" class="dncp">>&nbsp;电脑产品</a>
+                <ul class="ul5">
+                    <li><a href="#">台式机</a></li><span><a href="#">一体机</a></span>
+                    <li><a href="#">笔记本</a></li><span><a href="#">平板电脑</a></span>
+                    <li><a href="#">电脑配件</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="del_2">
+            <div class="lastbuy">
+                <span>浏览此类商品的用户最终购买了</span>
+            </div>
+            <img id="del2_img"src="../images/list.jpg"/>
+            <a href="#">德国柏卡35倍光变长焦相机</a>
+            <span class="del2_p">￥1680</span>
+        </div>
+        <div class="del_3">
+            <div class="newone">
+                <span>新品推荐</span>
+            </div>
+            <div class="del3_1">
+                <img src="../images/del3.jpg"/>
+                <a href="#">戴尔11.6英寸蓝色笔记本</a>
+                <span>￥&nbsp;&nbsp;2899</span>
+            </div>
+            <div class="del3_2">
+                <img src="../images/del3.jpg"/>
+                <a href="#">戴尔11.6英寸蓝色笔记本</a>
+                <span>￥&nbsp;&nbsp;2899</span>
+            </div>
+            <div class="del3_3">
+                <img src="../images/del3.jpg"/>
+                <a href="#">戴尔11.6英寸蓝色笔记本</a>
+                <span>￥&nbsp;&nbsp;2899</span>
+            </div>
+            <div class="del3_4">
+                <img src="../images/del3.jpg"/>
+                <a href="#">戴尔11.6英寸蓝色笔记本</a>
+                <span>￥&nbsp;&nbsp;2899</span>
+            </div>
+            <div class="del3_5">
+                <img src="../images/del3.jpg"/>
+                <a href="#">戴尔11.6英寸蓝色笔记本</a>
+                <span>￥&nbsp;&nbsp;2899</span>
+            </div>
+            <div class="del3_6">
+                <img src="../images/del3.jpg"/>
+                <a href="#">戴尔11.6英寸蓝色笔记本</a>
+                <span>￥&nbsp;&nbsp;2899</span>
+            </div>
+        </div>
+        <div class="recently">
+            <div class="rec">
+                <span>您最近浏览的商品</span>
+            </div>
+            <span class="notyet">您还没有浏览记录!</span>
+        </div>
+        <span class="sptp">商品图片</span>
+        <span class="spbh">商品编号:11572</span>
+
+        <div class="deltails_shop"></div>
+
+        <img id="yhsp" src="../css/images/t_86.jpg"/>
+        <div class="sunsang"><img src="../images/sun.jpg"></div>
+        <div class="sunsang2"><img src="../images/sun.jpg"></div>
+        <div class="sunsang3"><img src="../images/sun.jpg"></div>
+        <div class="sunsang4"><img src="../images/sun.jpg"></div>
+        <a href="#" class="s1">三星5.0英</a>
+        <span class="s1_p">￥999</span>
+        <a href="#" class="s2">三星5.0英</a>
+        <span class="s2_p">￥999</span>
+        <a href="#" class="s3">三星5.0英</a>
+        <span class="s3_p">￥999</span>
+        <a href="#" class="s4">三星5.0英</a>
+        <span class="s4_p">￥999</span>
+        <img id="youhuihd" src="../css/images/t_87.jpg"/>
+        <ul class="yhhd_ul">
+            <li><span>1.</span><a href="#">【每周TOP榜 值得买的全在这里】</a></li>
+            <li><span>2.</span><a href="#">【央广国宝苑 当代书画艺术交流平台】</a></li>
+            <li><span>3.</span><a href="#">【三佳玉业品牌旗舰店 买即赠红玛瑙手链一条】</a></li>
+            <li><span>4.</span><a href="#">【善美品牌旗舰店 全场88折+买赠】</a></li>
+        </ul>
+        <img id="de_img1" src="../images/detalis_img1.png"/>
+        <button id="cpms">产品描述</button>
+        <button id="yhpl">用户评论</button>
+        <button id="rhgm">如何购买</button>
+        <button id="shfw">售后服务</button>
+        <div class="detailsimgs">
+            <ul class="dimg_ul1">
+               <li><span class="sp">商品</span><span class="gy">概要</span></li>
+            </ul>
+            <img id="del_img"src="../images/del_img.png"/>
+            <ul class="dimg_ul2">
+                <li><span class="sp2">商品</span><span class="td">特点</span></li>
+            </ul>
+            <span class="xjword">德国柏卡35倍光变长焦相机</span>
+            <ul class="dimg_ul3">
+                <li>● 2000万像素。</li>
+                <li>● 35倍光学变焦。</li>
+                <li>● 25mm广角镜头。</li>
+                <li>● 1280*720P/30帧高清画质录影。</li>
+                <li>● 3英寸液晶屏。</li>
+                <li>● 微距1厘米近拍。</li>
+                <li>● ISO6400的感光度。</li>
+                <li>● 8种模式表盘。</li>
+                <li>● 多种智能场景模式。</li>
+                <li>● 高容量锂电池。</li>
+            </ul>
+            <ul class="dimg_ul4">
+                <li><span class="sp4">注意</span><span class="sx">事项</span></li>
+            </ul>
+            <ul class="dimg_ul5">
+                <li>注意事项：请按照说明书操作使用。</li>
+                <li>售后服务：本产品全国联保，享受三包服务，质保期为：一年。</li>
+            </ul>
+            <img id="img1" src="../images/del1.jpg"/>
+            <img id="img2" src="../images/del2.jpg"/>
+            <img id="img3" src="../images/del5.jpg"/>
+        </div>
+        <button id="yhpl_btn">用户评论</button>
+        <div class="yhpl_box">
+            <div class="ybox">
+                <a href="#">暂无评论</a>
+                <img src="../images/plt.png"/>
+                <button>我要评论</button>
+            </div>
+        </div>
+        <button id="howbuy">如何购买</button>
+        <div class="how_buy">
+            <span >购买流程：</span>
+            <img id="buy1" src="../css/images/buy1.png"/>
+            <span class="otherbuy">央广购物网站为您提供多种支付方式：</span>
+            <img id="buy2" src="../images/otherbuy.png"/>
+        </div>
+    </div>
+</div>
+
+<!-------------footer----------------->
+<div id="content6">
+    <div class="content_6">
+        <img id="c61" src="../css/images/c6_1.png"/>
+        <ul class="c6_ul1">
+            <li><a href="#">用户注册流程</a></li>
+            <li><a href="#">电视会员登录</a></li>
+            <li><a href="#">网站订购流程</a></li>
+        </ul>
+        <img id="c62" src="../css/images/c6_2.png"/>
+        <ul class="c6_ul2">
+            <li><a href="#">会员等级 </a></li>
+            <li><a href="#">会员权益 </a></li>
+            <li><a href="#">我的幸福金</a></li>
+        </ul>
+        <img id="c63" src="../css/images/c6_3.png"/>
+        <ul class="c6_ul3">
+            <li><a href="#">配送范围 </a></li>
+            <li><a href="#">配送时间 </a></li>
+            <li><a href="#">运费说明</a></li>
+        </ul>
+        <img id="c64" src="../css/images/c6_4.png"/>
+        <ul class="c6_ul4">
+            <li><a href="#">货到付款 </a></li>
+            <li><a href="#">在线支付 </a></li>
+            <li><a href="#">幸福购物卡</a></li>
+        </ul>
+        <img id="c65" src="../css/images/c6_5.png"/>
+        <ul class="c6_ul5">
+            <li><a href="#">货到付款 </a></li>
+            <li><a href="#">在线支付 </a></li>
+            <li><a href="#">幸福购物卡</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="content7">
+    <div class="content_7">
+        <img id="cont7_bg" src="../css/images/cont7_img.png"/>
+    </div>
+</div>
+
+<div id="content8"></div>
+
+<div id="footer">
+    <div class="footer_cont">
+        <img id="font_img" src="../images/footer_bg.jpg"/>
+        <div class="footer_line"></div>
+        <ul>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">招商合作</a></li>
+            <li><a href="#">成为供应商</a></li>
+            <li><a href="#">招纳贤士</a></li>
+            <li><a href="#">友情链接</a></li>
+        </ul>
+        <img id="footer_img" src="../css/images/footer_img.png"/>
+        <img id="qvc_img" src="../css/images/qvc_img.png"/>
+        <span>QVC</span>
+        <img id="footer_contect" src="../css/images/footer_contect.png"/>
+    </div>
+</div>
+</body>
+</html>

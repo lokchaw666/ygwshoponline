@@ -1,0 +1,501 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>列表页</title>
+<link rel="stylesheet" type="text/css" href="../css/list.css"/>
+<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+<script src="../js/common.js"></script>
+<script src="../js/jquery-1.12.0.js"></script>
+</head>
+
+<body>
+<!-------------header----------------->
+   <div class="header_out">
+   	 <div class="header_top">
+      	<img id="star" src="../css/images/header_star.png"/>
+      	<a id="shoucang" href="#">收藏本站</a>
+      	<span class="welcome">欢迎来到央广购物&nbsp;!</span>
+      	<span class="login">[&nbsp;<a href="#">登录</a>&nbsp;|&nbsp;<a href="#">注册</a>&nbsp;]</span>
+      	<ul class="header_list">
+         	<li><a href="#">&nbsp;会员中心&nbsp;</a></li>
+         	<li><a href="#">&nbsp;我的订单&nbsp;</a></li>
+         	<li><a href="#">&nbsp;帮助中心&nbsp;</a></li>
+         	<li><a href="#">&nbsp;电子型录&nbsp;</a></li>
+         	<li class="last"><a href="#">&nbsp;移动客户端&nbsp;</a></li>
+      	</ul>
+   	 </div>
+   </div>
+   <div class="search_out">
+   	 <div class="search">
+      	<a href="#"><img id="logo" src="../images/logo.png"/></a>
+      	<input type="text" id="serachtext" placeholder="输入您想要的商品ID/名称"/>
+      	<button id="btnSearch"></button>
+      	<img id="logo2" src="../images/logo2.png"/>
+      	<img id="tv" src="../css/images/tv.png"/>
+      	<img id="live" src="../css/images/live.png"/>
+      	<span><a href="#">仵海州监制平安招财玉璧...</a></span>
+      	<span class="redPiece">￥2980</span>
+   	 </div>
+   </div>
+   <div class="nav1_out">
+   	 <div class="nav1">
+      	<img id="small_logo" src="../css/images/small_logo.png"/>
+     	 <ul>
+         	<li><a class="shouye" href="#">首页</a></li>
+         	<li><a class="qjd" href="#">品牌旗舰店</a></li>
+         	<li><a href="#">今日特惠</a></li>
+         	<li><a href="#">正在直播</a></li>
+         	<li><a href="#">新品上市</a></li>
+         	<li><a href="#">清仓频道</a></li>
+         	<li><a href="#">换购商城</a></li>
+      	</ul>
+      	<img  id="new" src="../css/images/new.png"/>
+      	<button id="car"></button>
+   	 </div>
+   </div>
+   <div class="nav2_out">
+   	 <div class="nav2">
+      	<ul>
+         	<li><a  class="first" href="#">服装配饰</a><li>
+         	<li><a href="#">珠宝饰品</a><li>
+         	<li><a href="#">美容用品</a><li>
+         	<li><a href="#">厨房用品</a><li>
+         	<li><a href="#">厨房电器</a><li>
+         	<li><a href="#">家庭用品</a><li>
+         	<li><a href="#">数码家电</a><li>
+         	<li><a href="#">礼品收藏</a><li>
+         	<li><a class="last" href="#">食品酒水</a><li>
+      	</ul>
+   	 </div>
+   </div>
+   <div class="barrage_out">
+   	 <div class="barrage">
+        <img id="barrage_img" src="../css/images/barrage.png"/>
+        <div class="barrage_word">弹幕</div>
+     </div>
+   </div>
+</div>
+
+<!-------------list----------------->
+<div id="list">
+   <div class="list_content">
+      <img id="hhh" src="../css/images/t_19.gif"/>
+      <span class="shop_span"><a href="#" class="shop_index">当前位置：</a>&nbsp;>&nbsp;首页&nbsp;>&nbsp;家电</span>
+      <div class="jdnav">
+         <span class="jiadian">家电&nbsp;分类</span>
+         <div class="jdbox">
+            <a href="#" class="dxjd">>&nbsp;大型家电</a>
+            <ul class="ul1">
+               <li><a href="#">空调</a></li><span><a href="#">洗衣机</a></span>
+               <li><a href="#">电冰箱</a></li><span><a href="#">热水器</a></span>
+               <li><a href="#">洗碗机</a></li><span><a href="#">其他</a></span>
+            </ul>
+            <a href="#" class="yysb">>&nbsp;影音设备</a>
+            <ul class="ul2">
+               <li><a href="#">DVD</a></li><span><a href="#">电视机</a></span>
+               <li><a href="#">音响</a></li><span><a href="#">家庭影院</a></span>
+               <li><a href="#">MP3</a></li><span><a href="#">MP4</a></span>
+               <li><a href="#">MP5</a></li><span><a href="#">数码相框</a></span>
+               <li><a href="#">投影仪</a></li><span><a href="#">其他</a></span>
+            </ul>
+            <a href="#" class="sjsm">>&nbsp;手机数码</a>
+            <ul class="ul3">
+               <li><a href="#">智能手机</a></li><span><a href="#">非智能能手机</a></span>
+               <li><a href="#">手机配件</a></li><span><a href="#">相机</a></span>
+               <li><a href="#">摄像机</a></li><span><a href="#">导航仪</a></span>
+               <li><a href="#">行车记录仪</a></li><span><a href="#">数码设备配件</a></span>
+               <li><a href="#">其他</a></li>
+            </ul>
+            <a href="#" class="shdq">>&nbsp;生活电器</a>
+            <ul class="ul4">
+               <li><a href="#">足浴盆</a></li><span><a href="#">加湿器</a></span>
+               <li><a href="#">电烫斗</a></li><span><a href="#">电暖气</a></span>
+               <li><a href="#">吸尘器</a></li><span><a href="#">电动拖把</a></span>
+               <li><a href="#">缝纫机</a></li><span><a href="#">干衣机</a></span>
+               <li><a href="#">电话</a></li><span><a href="#">暖水器</a></span>
+               <li><a href="#">清洁机</a></li><span><a href="#">开饮机</a></span>
+               <li><a href="#">净水机</a></li><span><a href="#">电风扇</a></span>
+               <li><a href="#">捕蚊灯</a></li><span><a href="#">电动扫地机</a></span>
+               <li><a href="#">空气净化器</a></li><span><a href="#">两季电器</a></span>
+               <li><a href="#">除湿机</a></li><span><a href="#">家用坐便</a></span>
+               <li><a href="#">挂烫机</a></li><span><a href="#">电热毯</a></span>
+               <li><a href="#">其他</a></li>
+            </ul>
+            <a href="#" class="dncp">>&nbsp;电脑产品</a>
+            <ul class="ul5">
+               <li><a href="#">台式机</a></li><span><a href="#">一体机</a></span>
+               <li><a href="#">笔记本</a></li><span><a href="#">平板电脑</a></span>
+               <li><a href="#">电脑配件</a></li>
+           </ul>
+         </div>
+      </div>
+      <img id="list_bg" src="../images/list_bg.jpg"/>
+      <div class="list_hot">
+         <div class="hot_1"><span>热卖推荐</span></div>
+         <img class="hot_box1" src="../images/hot1.jpg"/>
+         <a href="#" class="jqr">KV8智能扫地机器人</a>
+         <span class="hot1_p">￥868</span>
+         <button id="hot1_buy">立即查看</button>
+         
+         <img class="hot_box2" src="../images/hot2.jpg"/>
+         <a href="#" class="ysh">izz养生壶1+1分享组</a>
+         <span class="hot2_p">￥299</span>
+         <button id="hot2_buy">立即查看</button>
+         
+         <img class="hot_box3" src="../images/hot3.png"/>
+         <a href="#" class="sxz">神行者10.6英寸四核平板</a>
+         <span class="hot3_p">￥299</span>
+         <button id="hot3_buy">立即查看</button>
+      </div>
+      <div class="list_hot2">
+         <span>家电-商品筛选</span>
+         <div class="pingpai">
+            <span>品牌:<a class="all" href="#">&nbsp;全部</a></span>
+            <ul>
+               <li><a href="#">海尔</a></li>
+               <li><a href="#">皇典</a></li>
+               <li><a href="#">戴尔</a></li>
+               <li><a href="#">三星</a></li>
+               <li><a href="#">Dyson</a></li>
+               <li><a href="#">德国帕卡</a></li>
+               <li><a href="#">神行者</a></li>
+               <li><a href="#">好太太</a></li>
+               <li><a href="#">荣事达</a></li>
+               <li><a href="#">爱华</a></li>
+               <li><a href="#">DNC</a></li>
+               <li><a href="#">其他</a></li>
+            </ul>
+         </div>
+         <div class="jiage">
+            <span>价位:<a class="all" href="#">&nbsp;全部</a></span>
+            <ul>
+               <li><a href="#">0-200</a></li>
+               <li><a href="#">200-500</a></li>
+               <li><a href="#">500-700</a></li>
+               <li><a href="#">700-1000</a></li>
+               <li><a href="#">1000-1500</a></li>
+               <li><a href="#">1500-2000</a></li>
+               <li><a href="#">2000以上</a></li>
+            </ul>
+            <span class="zdy">自定义</span>
+            <input type="text" id="hp"/>
+            <input type="text" id="lp"/>
+            <span class="hx">-</span>
+            <button id="confire">确定</button>
+         </div>
+      </div>
+      <button id="xl">销量</button>
+      <button id="jg">价格</button>
+      <button id="newsj">最新上架</button>
+      <div class="list_1">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_2">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_3">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_4">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_5">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_6">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_7">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_8">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_9">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_10">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_11">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_12">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_13">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_14">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_15">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_16">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_17">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_18">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_19">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <div class="list_20">
+         <img id="list_img" src="../images/list.jpg"/>
+         <span class="l_p">￥&nbsp;1344.0</span>
+         <span class="list_bh">编号：<span class="list_num">115176</span></span>
+         <span class="gphoto">德国柏卡相机</span>
+         <img id="video" src="../css/images/v_img.png"/>
+      </div>
+      <span class="pagenum">共找到20项相关结果&nbsp;&nbsp;页次：&nbsp;1/1</span>
+      <button id="page">1</button>
+      <button id="pagenex">下一页</button>
+      <div class="xsph">
+        <div class="cilei">
+          <span>此类销售排行</span>
+        </div>
+        <div class="cl_1">
+          <img id="ph1" src="../css/images/p1.png"/>
+          <img id="p1" src="../css/images/pp1.jpg"/>
+          <a href="#">德国柏卡相机</a>
+          <span>￥1680.0</span>
+        </div>
+        <div class="cl_2">
+          <img id="ph2" src="../css/images/p2.gif"/>
+          <img id="p2" src="../css/images/pp1.jpg"/>
+          <a href="#">德国柏卡相机</a>
+          <span>￥1680.0</span>
+        </div>
+        <div class="cl_3">
+          <img id="ph3" src="../css/images/p3.png"/>
+          <img id="p3" src="../css/images/pp1.jpg"/>
+          <a href="#">德国柏卡相机</a>
+          <span>￥1680.0</span>
+        </div>
+        <div class="cl_4">
+          <img id="ph4" src="../css/images/p4.png"/>
+          <img id="p4" src="../css/images/pp1.jpg"/>
+          <a href="#">德国柏卡相机</a>
+          <span>￥1680.0</span>
+        </div>
+        <div class="cl_5">
+          <img id="ph5" src="../css/images/p5.png"/>
+          <img id="p5" src="../css/images/pp1.jpg"/>
+          <a href="#">德国柏卡相机</a>
+          <span>￥1680.0</span>
+        </div>
+      </div>
+      <div class="tvhotshop">
+        <div class="tv_shop">
+          <span>今日电视热播商品</span>
+        </div>
+        <div class="tv1">
+          <img id="watch1" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+        <div class="tv2">
+          <img id="watch2" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+        <div class="tv3">
+          <img id="watch3" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+        <div class="tv4">
+          <img id="watch4" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+        <div class="tv5">
+          <img id="watch5" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+        <div class="tv6">
+          <img id="watch6" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+        <div class="tv7">
+          <img id="watch7" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+        <div class="tv8">
+          <img id="watch8" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+        <div class="tv9">
+          <img id="watch9" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+        <div class="tv10">
+          <img id="watch10" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+        <div class="tv11">
+          <img id="watch11" src="../images/watch.jpg"/>
+          <a href="#">三度士飞轮钻石机械表</a>
+          <span>￥&nbsp;999</span>
+        </div>
+      </div>
+      <div class="recently">
+         <div class="rec">
+           <span>您最近浏览的商品</span>
+         </div>
+         <span class="notyet">您还没有浏览记录!</span>
+      </div>
+   </div>
+</div>
+
+<!-------------footer----------------->
+<div id="content6">
+   <div class="content_6">
+      <img id="c61" src="../css/images/c6_1.png"/>
+      <ul class="c6_ul1">
+         <li><a href="#">用户注册流程</a></li>
+         <li><a href="#">电视会员登录</a></li>
+         <li><a href="#">网站订购流程</a></li>
+      </ul>
+       <img id="c62" src="../css/images/c6_2.png"/>
+       <ul class="c6_ul2">
+         <li><a href="#">会员等级 </a></li>
+         <li><a href="#">会员权益 </a></li>
+         <li><a href="#">我的幸福金</a></li>
+      </ul>
+      <img id="c63" src="../css/images/c6_3.png"/>
+      <ul class="c6_ul3">
+         <li><a href="#">配送范围 </a></li>
+         <li><a href="#">配送时间 </a></li>
+         <li><a href="#">运费说明</a></li>
+      </ul>
+      <img id="c64" src="../css/images/c6_4.png"/>
+      <ul class="c6_ul4">
+         <li><a href="#">货到付款 </a></li>
+         <li><a href="#">在线支付 </a></li>
+         <li><a href="#">幸福购物卡</a></li>
+      </ul>
+      <img id="c65" src="../css/images/c6_5.png"/>
+      <ul class="c6_ul5">
+         <li><a href="#">货到付款 </a></li>
+         <li><a href="#">在线支付 </a></li>
+         <li><a href="#">幸福购物卡</a></li>
+      </ul>
+   </div>
+</div>
+
+<div id="content7">
+   <div class="content_7">
+     <img id="cont7_bg" src="../css/images/cont7_img.png"/>
+   </div>
+</div>
+
+<div id="content8"></div>
+
+<div id="footer">
+  <div class="footer_cont">
+     <img id="font_img" src="../images/footer_bg.jpg"/>
+     <div class="footer_line"></div>
+     <ul>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">联系我们</a></li>
+        <li><a href="#">招商合作</a></li>
+        <li><a href="#">成为供应商</a></li>
+        <li><a href="#">招纳贤士</a></li>
+        <li><a href="#">友情链接</a></li>
+     </ul>
+     <img id="footer_img" src="../css/images/footer_img.png"/>
+     <img id="qvc_img" src="../css/images/qvc_img.png"/>
+     <span>QVC</span>
+     <img id="footer_contect" src="../css/images/footer_contect.png"/>
+  </div>
+</div>
+</body>
+</html>
